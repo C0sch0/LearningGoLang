@@ -46,7 +46,7 @@ func main()  {
 	fmt.Scan(&address)
 	file, err := os.Open(address)
 	check(err)
-
+	print(err)
 	//Your program will successively read each line of the text file and
 	//create a struct which contains the first and last names found in the file.
 
